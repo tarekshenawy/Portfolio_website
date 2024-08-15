@@ -1,0 +1,9 @@
+.footer{
+    width: 90%;
+    margin: 20px auto;
+}
+.footer p{
+    
+    text-align: center;
+    font-weight: bold;
+}

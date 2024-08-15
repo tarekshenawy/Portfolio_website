@@ -1,0 +1,120 @@
+.home{
+    width: 90%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+   justify-content: space-between;
+  margin: auto;
+ 
+}
+.home .col1{
+    flex: 1;
+    color: #fff;
+    line-height: 40px;
+} 
+
+.home .col1 .button{
+ 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+    border-radius: 30px;
+    outline: none;
+    border: none;
+    font-weight: bold;
+    margin: 15px 0;
+    cursor: pointer;
+    background-color: #fff;
+    width: 130px;
+    color: black;
+    font-size: 14px;
+    height: 35px;
+    animation-delay: 1.5s;
+}
+.home .col1 .button:hover{
+    background-color: gold;
+}
+.home .col1 h2 span{
+    color: gold;
+}
+.home .col2{
+   flex: 1;
+   display: flex;
+   justify-content: flex-end;
+   align-items: center;
+}
+
+
+.home .col2 img{
+  width: 80%;
+}
+.anim{
+    opacity: 0;
+   translate: 0 100px;
+   animation: moveup .7s linear both 2s ;
+}
+.home .col1 h3:nth-child(1)
+{
+    animation-delay: .5s;
+    font-size: 25px;
+}
+.home .col1 h3:nth-child(2){
+    animation-delay: .9s;
+    font-size: 25px;
+
+}
+.home .col1 h2{
+    animation-delay: 1.2s;
+    font-size: 28px;
+} 
+@keyframes moveup{
+    100%{
+        opacity: 1;
+        translate: 0 0;
+    }
+}
+@media (min-width:600px) and (max-width:850px){
+    .home .col1 h3:nth-child(1){
+        font-size: 16px;
+
+    }
+    .home .col1 h3:nth-child(2){
+        font-size: 16px;
+
+    }
+    .home .col1 h2{
+        animation-delay: .9s;
+        font-size: 18px;
+    } 
+    .home .col1{
+        line-height: 30px;
+    }
+
+}
+@media (max-width:600px){
+    .home{
+     flex-direction: column-reverse;
+ margin: 110px auto;
+  
+    }
+    .home .col2 img{
+        width: 100%;
+        height: 230px;
+        border-radius: 50%;
+        margin-bottom: 10px;
+     
+      
+      
+      }
+      .anim{
+        opacity: 0;
+       translate: 0 100px;
+       animation: moveup .7s linear both .3s;
+    }
+  
+  
+   
+
+
+}

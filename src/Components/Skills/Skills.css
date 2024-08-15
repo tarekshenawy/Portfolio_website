@@ -1,0 +1,15 @@
+.skills{
+    width: 90%;
+    margin: 60px auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr ;
+}
+.skills .item{
+    margin-bottom: 40px;
+    text-align: center;
+    color: #fff;
+}
+.skills .item img{
+    width: 30%;
+
+}

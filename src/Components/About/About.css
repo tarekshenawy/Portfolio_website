@@ -1,0 +1,47 @@
+.about{
+    width: 90%;
+    height: 90vh;
+    display: flex;
+    align-items: flex-start;
+  color: #fff;
+  margin: auto;
+ 
+}
+.about_info{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 30px;
+}
+.about .col1{
+    flex: 1;
+}
+.about  span{
+    color: gold;
+}
+.about .col2{
+  flex: 1;
+}
+.about  p{
+    margin-bottom: 20px;
+    font-weight: bold;
+   
+}
+@media(max-width:800px){
+    .about_info{
+        display: flex;
+        justify-content: space-between;
+        flex-direction: column;
+    
+    }
+    .about p{
+        font-size: 15px;
+      
+    }
+    .about .col2 p{
+       font-size: 13px;
+    }
+  
+ 
+
+}

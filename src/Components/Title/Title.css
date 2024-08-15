@@ -1,0 +1,15 @@
+.title{
+    width: 90%;
+    margin: 50px auto; 
+ 
+}
+.title p{
+    text-align: center;
+   color: #fff;
+   background-color:black;
+   width: 200px;
+   margin: 0 auto;
+   padding: 10px 10px;
+   border-radius: 20px;
+
+}

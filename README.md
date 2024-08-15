@@ -1,2 +1,2 @@
-# Portfolio_website
-using React js
+# Portfolio-website
+Portfolio using React js

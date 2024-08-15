@@ -1,0 +1,36 @@
+.services{
+    width: 90%;
+    margin: 60px auto;
+   
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr ;
+   
+}
+.services .card{
+    margin: 20px;
+    text-align: center;
+}
+.services .card h3{
+    color: gold;
+}
+.services .card p{
+    color: #fff;
+}
+.services .card img{
+    width: 40%;
+    border-radius: 18px;
+
+  
+}
+@media(max-width:800px){
+    .services{
+        width: 90%;
+        margin: 60px auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr  ;
+    }
+    .services .card h2{
+        font-size: 16px;
+    }
+
+}
